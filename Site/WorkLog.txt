@@ -1,0 +1,8 @@
+This is the english explaination of the work that is pushed.
+
+edit 6/20/2022:
+Naming conventions on the HTML and CSS files are not absolute and will change 
+upon the final debugging process. The names are simply for myself at the moment. 
+Thank you for understanding on the rough file, it will become user friendly as 
+I am still working on good work practices. This is a lesson I have learned already;
+good naming conventions at the beginning help with troubleshooting later on.
