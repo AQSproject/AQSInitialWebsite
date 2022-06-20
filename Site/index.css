@@ -74,8 +74,6 @@ body{
 	}
 
 
-
-
 ul {
   	
 	display: flex;
@@ -105,30 +103,3 @@ li a:hover {
 
 
 
-
-
-/*
-.tableStuff{
-	width: 100%;
-	background-color:gray;
-	margin: 0;
-	padding: 0;
-	}	
-	
-.AQcenter{
-	text-align: center;
-	height: 45px;
-
-	}	
-	
-td a{
-	display: block;
-
-}	
-	
-td:hover {
-	background-color:gray;
-	color: white;
-}	
-	
-*/
