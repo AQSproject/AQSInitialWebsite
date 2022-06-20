@@ -1,0 +1,134 @@
+body{
+	background-color: black;
+	/*background: url(bg2.jpg); img from AQS' Room
+    background-size: contain, cover;
+	background-repeat: no-repeat; */
+	}
+.masterDiv{
+	background: url(bg2.jpg); /*img from AQS' Room*/
+    background-size:  cover;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 8px 8px black inset;
+	
+	
+}
+
+.titleBG{
+	background: url(TdivBg.jpg); /*img from public domain */
+	background-size: cover;
+	opacity: 0.98;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+	}
+
+.Tsection{
+	color: white;
+	text-align: center;
+	
+	}
+
+.desc{
+	display: inline;
+	color: white;
+	text-align: center;
+	}
+
+
+
+
+
+
+.AQcontentSize {
+	margin-left: 75px;
+	margin-right: 75px;
+	
+	}
+  
+  
+.AQinline {
+	text-align: center;
+	color: white;
+	opacity: 1;
+
+	}
+  
+.AQdark{
+	background-color: black;
+	opacity: 0.7;
+	height: 450px;
+
+	}
+
+.AQmainContent{
+	background-color: white;
+	opacity: 0.9;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	height: 700px;
+	
+	
+	}
+
+
+
+
+ul {
+  	
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+	background-color: #333;
+}
+
+
+
+li a {
+	display: block;
+	height: 15px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+
+
+
+
+
+
+/*
+.tableStuff{
+	width: 100%;
+	background-color:gray;
+	margin: 0;
+	padding: 0;
+	}	
+	
+.AQcenter{
+	text-align: center;
+	height: 45px;
+
+	}	
+	
+td a{
+	display: block;
+
+}	
+	
+td:hover {
+	background-color:gray;
+	color: white;
+}	
+	
+*/
