@@ -1,7 +1,23 @@
 This is the english explaination of the work that is pushed.
 
-edit 6/20/2022:
-Naming conventions on the HTML and CSS files are not absolute and will change 
+
+
+
+
+Edit 6/20/2022:
+[4] I just finished the illustration of the new SiteLayout.png and I am in love with the
+cleanliness of the site so far. I will create a branch and create just teh DIVs by tonight
+
+[3] Recreated teh SiteIdea.png with a more sophistiacted layout. After some research, I will be
+utilizing the Thirds rule for when it comes to photography. I am doing this in hopes to make a much 
+cleaner and presentable. There was something that I dislike with the old design and realized
+that it was the fact that it was just not natural and being to "abstract" could detour viewers.
+I uploaded the "UPDATEDSiteIdea.png" I will follow with a "SiteLayout.png" to illustrate
+to myself how many nested divs I will have to be using.
+
+[2] I am not enjoying the "fuzz" on the edges of teh body's background. I will be removing and keeping the img as a cover. 
+
+[1] Naming conventions on the HTML and CSS files are not absolute and will change 
 upon the final debugging process. The names are simply for myself at the moment. 
 Thank you for understanding on the rough file, it will become user friendly as 
 I am still working on good work practices. This is a lesson I have learned already;

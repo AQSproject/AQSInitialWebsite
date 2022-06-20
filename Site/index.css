@@ -1,105 +1,96 @@
 body{
 	background-color: black;
-	/*background: url(bg2.jpg); img from AQS' Room
-    background-size: contain, cover;
-	background-repeat: no-repeat; */
-	}
-.masterDiv{
-	background: url(bg2.jpg); /*img from AQS' Room*/
-    background-size:  cover;
-	background-repeat: no-repeat;
-	box-shadow: 0px 0px 8px 8px black inset;
-	
-	
-}
-
-.titleBG{
-	background: url(TdivBg.jpg); /*img from public domain */
-	background-size: cover;
-	opacity: 0.98;
-	height: 450px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-
 	}
 
-.Tsection{
-	color: white;
-	text-align: center;
-	
+	.Master	{
+		background-color: White;
+		margin: 5px;
+		height: 1200px;
+		
 	}
-
-.desc{
-	display: inline;
-	color: white;
-	text-align: center;
+	.MasterTitle	{
+		background-color: Gray;
+		margin: 5px;
+		height: 200px;
 	}
-
-
-
-
-
-
-.AQcontentSize {
-	margin-left: 75px;
-	margin-right: 75px;
-	
+	.MasterReel	{
+		background-color: Gray;
+		margin: 5px;
+		height: 300px;
 	}
-  
-  
-.AQinline {
-	text-align: center;
-	color: white;
-	opacity: 1;
-
+	.MasterContent	{
+		background-color: Gray;
+		margin: 5px;
+		height: 700px;
 	}
-  
-.AQdark{
-	background-color: black;
-	opacity: 0.7;
-	height: 450px;
-
+	.HeaderBanner	{
+		background-color: Blue;
+		margin: 0;
+		height: 50px;
+		display: block;
 	}
-
-.AQmainContent{
-	background-color: white;
-	opacity: 0.9;
-	margin-top: 100px;
-	margin-bottom: 20px;
-	height: 700px;
-	
-	
+	.BlueContainer{
+		
+	}	
+	.NavBar	{
+		background-color: Blue;
+		margin: 5px;
+		height: 300px;
+		width:300px;
+		display: inline-block;
 	}
-
-
-ul {
-  	
-	display: flex;
-	justify-content: space-evenly;
-	list-style-type: none;
-	margin: 0;
-	padding: 15px;
-	overflow: hidden;
-	background-color: #333;
-}
-
-
-
-li a {
-	display: block;
-	height: 15px;
-	color: white;
-	text-align: center;
-	text-decoration: none;
-}
-
-li a:hover {
-	background-color: #111;
-}
-
-
-
-
-
+	.MainContent	{
+		background-color: Blue;
+		margin: 5px;
+		height: 500px;
+		width: 1200px;
+		display: inline-block;
+		
+	}
+	.TextContent	{
+		background-color: Pink;
+		margin: 5px;
+		height: 95%;
+		width:75%;
+		display: inline-block;
+	}
+	.ContentTitle	{
+		background-color: Orange;
+		margin: 5px;
+		height: 20%;
+	}
+	.ContentBody	{
+		background-color: Orange;
+		margin: 5px;
+		height: 70%;
+	}
+	.ImageContent	{
+		background-color: Pink;
+		margin: 5px;
+		height: 95%;
+		width: 20%;
+		
+		display: inline-block;
+	}
+	.Image	{
+		background-color: Green;
+		margin: 5px;
+		height: 70%;
+	}
+	.ImageCaption	{
+		background-color: Green;
+		margin: 5px;
+		height: 20%;
+	}
+	.Unassigned	{
+		background-color: Blue;
+		margin: 5px;
+		height: 300px;
+		width:300px;
+		display: inline-block;
+	}
+	.Footer	{
+		background-color: White;
+		margin: 5px;
+		height: 50px;
+	}
