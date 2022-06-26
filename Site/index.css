@@ -1,96 +1,153 @@
+br{
+	clear: both;
+}
+
 body{
-	background-color: black;
+	/*background: url(bg2blurr.jpg);*/
+	background: url(TdivBg.jpg);
+	height: 100%
 	}
 
+
+h1{
+	color: white;
+	font-size: 45px;
+}
 	.Master	{
-		background-color: White;
 		margin: 5px;
 		height: 1200px;
-		
+		align-items: strech;
 	}
 	.MasterTitle	{
-		background-color: Gray;
-		margin: 5px;
+	/*	background: url(TdivBg.jpg);
+		background-position:left top;
+		opacity: 0.90;
+		margin: 5px; 					*/
 		height: 200px;
+		background-size: cover;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: center;
 	}
-	.MasterReel	{
+
+	}	
+/* MasterReel	{
 		background-color: Gray;
 		margin: 5px;
 		height: 300px;
-	}
+	}									*/
 	.MasterContent	{
 		background-color: Gray;
-		margin: 5px;
-		height: 700px;
+		height: 100%;
 	}
-	.HeaderBanner	{
+/*	.HeaderBanner	{
 		background-color: Blue;
 		margin: 0;
 		height: 50px;
 		display: block;
 	}
-	.BlueContainer{
-		
-	}	
+										*/
+	
 	.NavBar	{
-		background-color: Blue;
 		margin: 5px;
 		height: 300px;
 		width:300px;
-		display: inline-block;
+		vertical-align: top;
+		float: left;
 	}
+	
+									/* Start of Nav Bar table links*/
+									
+									
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: black;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			padding: 8px 16px;
+			text-decoration: none;
+		}
+
+	/* Change the link color on hover */
+		li a:hover {
+			background-color: #555;
+			color: white;
+		}
+		
+		
+		
+									/* End of Nav Bar table links*/
+		
+
 	.MainContent	{
-		background-color: Blue;
 		margin: 5px;
-		height: 500px;
-		width: 1200px;
-		display: inline-block;
+		height: 100%;
+		display: block;
 		
 	}
 	.TextContent	{
-		background-color: Pink;
-		margin: 5px;
-		height: 95%;
-		width:75%;
-		display: inline-block;
+		background-color: black;
+		width: 55%;
+		float: left;
+		display: block;
+		vertical-align: top;
+		height: 100%;
+		overflow: hidden;
+		
 	}
 	.ContentTitle	{
-		background-color: Orange;
+		background-color: gray;
 		margin: 5px;
-		height: 20%;
+		height: auto;
+		
 	}
 	.ContentBody	{
-		background-color: Orange;
+		background-color: gray;
+		padding: 15px;
 		margin: 5px;
-		height: 70%;
+		height: auto;
 	}
 	.ImageContent	{
-		background-color: Pink;
+		background-color: black;
 		margin: 5px;
-		height: 95%;
-		width: 20%;
-		
-		display: inline-block;
+		height: 100%;
+		display: block;
+		float:none;
+		overflow: hidden;
 	}
 	.Image	{
-		background-color: Green;
+		
+		background: url(imgTest.png);
+		background-size: contain;
+		background-repeat: no-repeat;
 		margin: 5px;
-		height: 70%;
+		width: 100%;
+		height: 300px;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		
 	}
 	.ImageCaption	{
-		background-color: Green;
+		background-color: gray;
 		margin: 5px;
-		height: 20%;
 	}
-	.Unassigned	{
-		background-color: Blue;
-		margin: 5px;
-		height: 300px;
-		width:300px;
-		display: inline-block;
-	}
+	
 	.Footer	{
-		background-color: White;
+		text-align: center;
+		color: white;
+		background: url(TdivBg.jpg);
 		margin: 5px;
-		height: 50px;
+		height: 150px;
+		vertical-align: bottom;
+		background-position:left top;
+		opacity: 0.90;
 	}
